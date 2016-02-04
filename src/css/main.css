@@ -412,3 +412,23 @@ span.input-group-btn>button {
 .form-container{
     padding:10px;
 }
+
+
+/*css for containers in large-trader-id and large-trader-symbol*/
+.form-group{
+    width:100%;
+    display:inline-block;
+}
+.form-label-container,.form-checkbox-container{
+    float:left;
+    width:10%;
+    display:inline-block;
+}
+
+.dynamic-container{
+    display:inline-block;
+   // margin-left:20%;
+    width:70%;
+    color:#CC0000;
+   // float:right;
+}

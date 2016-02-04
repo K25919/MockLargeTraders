@@ -11,13 +11,21 @@
             <div class="panel-body">
                 <div class="form-inline form-container">
                     <div class="form-group">
-                        <label for="ltidCheckBox">LTID#</label>
-                        <input type="checkbox" name="ltidCheckBox" class="form-control" id="ltidCheckBox">
-                        <label> All </label>
+                        <span class="form-label-container">
+                            <label>LTID#</label>
+                        </span>
+
+                        <span class="form-checkbox-container">
+                            <input type="checkbox" name="ltidCheckBox" class="form-control" id="ltidCheckBox">
+                            <label> All </label>
+                        </span>
+
                         <span class="dynamic-container">
                             <input type="text" name="ltidText[]" class="ltidText form-control" placeholder="Enter Ltid#">
                         </span>
+
                         <button class="btn btn-primary" name="ltidAdd" id="ltidAdd">Add</button>
+
                     </div>
                 </div>
             </div>
