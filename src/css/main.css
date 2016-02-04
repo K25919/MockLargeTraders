@@ -1,0 +1,414 @@
+body {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; //
+font-size: 12px;
+    background-color: #f5f5f5; //
+color: #416EA9;
+    color: #282a2f;
+}
+
+.modal-content {
+    background-color: #f5f5f5;
+}
+
+.bs-blue-header-background-modal>.modal-header {
+    background: #79ACD8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 5px 0 0 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+}
+
+.tab-content {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: 0px solid transparent;
+}
+
+.ui-grid-viewport {
+    position: relative; //
+//overflow-y: auto !important;
+    overflow-x: auto !important;
+}
+
+.ui-grid-selection-row-header-buttons {
+    opacity: 1;
+    cursor: pointer;
+    background-color: white;
+    color: white;
+    border: 1px solid;
+//border-color: black;
+    border-color: #BDB3B3;
+    border-radius: 4px;
+}
+
+.ui-grid-selection-row-header-buttons.ui-grid-row-selected {
+    opacity: 1;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+//border-color: black;
+    border-color: #BDB3B3;
+    border-radius: 1px;
+}
+
+.ui-grid-selection-row-header-buttons.ui-grid-all-selected {
+    opacity: 1;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+//border-color: black;
+    border-color: #BDB3B3;
+    border-radius: 1px;
+}
+
+/*.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 1000px;
+    height: 500px;
+}
+*/
+.ngGridOptions {
+    border: 1px solid rgb(212, 212, 212);
+    width: 50%;
+    height: 120px;
+}
+
+.optionsG {
+    border: 1px solid rgb(212, 212, 212);
+    width: 100%;
+    height: 100px;
+}
+
+.optionsG ngRow.even {
+    background-color: transparent;
+}
+
+.label {
+    padding-right: 0px;
+}
+
+.ngHeaderContainer {
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+    background-color: inherit;
+    ont-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #416EA9;
+    background-color: #fff;
+}
+
+.has-error .help-block, .has-error .control-label, .has-error .radio,
+.has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline,
+.has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label,
+.has-error.checkbox-inline label {
+    color: red;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.warningMessage {
+    color: blue;
+}
+
+.infoMessage {
+    color: green;
+}
+
+.requiredFieldIndicator {
+    color: red;
+    font-size: large
+}
+
+/*
+.ui-grid-row.ui-grid-row-selected > [ui-grid-row] > .ui-grid-cell {
+  background-color: #00BFFF;
+}
+*/
+.panel {
+    margin-bottom: 10px;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #79ACD8;
+    border-color: #79ACD8;
+}
+
+.panel-default {
+    border-color: #79ACD8;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #79ACD8;
+    border-color: #79ACD8;
+}
+
+.panel-primary {
+    border-color: #79ACD8;
+}
+
+.ui-grid-pager-panel {
+    position: relative !important;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    /*background-color: #f5f5f5 !important;*/
+    /*display: inline-block;*/
+}
+/*
+.ui-grid-pager-max-pages-number {
+    vertical-align: top;
+}
+*/
+.grid-error-message, .no-data {
+    position: absolute;
+    top: 80px;
+    opacity: 0.25;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    display: block;
+}
+
+
+.ui-grid-header-cell .ui-grid-cell-contents {
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    white-space: normal;
+    -ms-text-overflow: clip;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    overflow: visible;
+    height: 100%;
+    text-align:center;
+}
+
+ui-grid-pager-control input {
+    height: 26px;
+    width: 50px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#bsreq_additional_material_grid .ui-grid-header-cell-wrapper .ui-grid-cell-contents{
+    height: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: #123052;
+    min-width: 115px;
+    white-space: nowrap;
+}
+
+label .mandatory span::after, label .mandatory span:after {
+    content: "\e006";
+    font-size: x-small;
+    vertical-align: top;
+}
+
+.alert-dismissable .close, .alert-dismissible .close {
+    color: black;
+    opacity: 60;
+}
+
+/*Animated loading spin*/
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+/*End of Animated loading spin*/
+
+/* Fixed width classes for input boxes */
+.fixedwidth230 {
+    width: 230px;
+}
+/* End of Fixed width classes for input boxes */
+
+/* Panel padding class */
+.paddedPanel {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+/* End of Panel padding class */
+
+/*Button Disable*/
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+    cursor: not-allowed;
+    filter: alpha(opacity=25);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .25;
+}
+
+/* Use this style if you want to offset a div which does not have the required field '*' in the label */
+.notARequiredField {
+    margin-top: 5px;
+}
+
+select.form-control {
+    padding: 0px;
+}
+
+/* Increased tooltip max width to 300px. It is better to have this space on whichever side they will be shown because of this customization */
+.tooltip .tooltip-inner {
+    width: auto;
+    max-width: 300px;
+    text-align: left;
+}
+
+/* Fix for border not showing up on one side of the input box for input group buttons */
+span.input-group-btn>button {
+    z-index: 0 !important;
+}
+
+.bluesheet-cell-selection {
+    color: #fff;
+    background-color: #7C9DBB;
+    border-color: #518892;
+}
+
+.bluesheet-cell-transparent {
+    color: #fff;
+    background-color: transparent;
+    border-color: #78CAB4;
+}
+
+.ui-grid-row.ui-grid-row-selected > [ui-grid-row] > .ui-grid-cell {
+//background-color: #9ABBC1;
+    background-color: #7C9DBB;
+}
+
+.cell-content-right{
+    text-align:right;
+    padding-right:15px;
+}
+
+.grid-long-Header  .ui-grid-header-cell {
+    height: 60px;
+}
+
+.btn-check-enabled{
+    width: 20px;
+    height: 20px;
+    background: white;
+    padding-left: 3px;
+    padding-right: 6px;
+    border-radius: 4px;
+}
+
+.btn-check-disabled{
+    width: 20px;
+    height: 20px;
+    background: white;
+    padding-left: 3px;
+    padding-right: 6px;
+    border-radius: 4px;
+    border-color: black;
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 1000px;
+    }
+}
+.row-inactive {
+    color: #ADA1A1;
+}
+.row-active {
+    color: black;
+}
+.rowheading{
+    background-color:#f0f0f0;
+    font-weight:bold;
+    margin:0px;
+    padding:2px;
+}
+.row.rowlist{
+    margin:0px;
+    padding:2px;
+    border-bottom:1px solid beige;
+}
+.padding-lr5{
+    padding-right:5px;
+    padding-left:5px;
+}
+.zero-padding {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+/* Classes for full page loading indicator */
+.full_page_loading_ind {
+    z-index: 2000;
+    display: block;
+    background-color: black;
+    opacity: 0.4;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 200px;
+}
+
+.full_page_loading_ind > p {
+    opacity: 1;
+    font-size: 30px;
+    color: white;
+}
+.form-container{
+    padding:10px;
+}

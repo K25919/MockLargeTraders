@@ -1,0 +1,5 @@
+{
+     "registry": "http://bower.herokuapp.com",
+     "proxy":"http://proxye1.finra.org:8080/",
+     "https-proxy":"http://proxye1.finra.org:8080"
+}

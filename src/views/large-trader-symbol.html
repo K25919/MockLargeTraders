@@ -1,0 +1,29 @@
+<div class="panel-group" id="largeTraderSymbolAccordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="largeTraderSymbolHeading">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#largeTraderSymbolAccordion" href="#largeTraderSymbolCollapse" aria-expanded="true" aria-controls="largeTraderSymbolCollapse">
+                    Symbol
+                </a>
+            </h4>
+        </div>
+        <div id="largeTraderSymbolCollapse" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="largeTraderSymbolHeading">
+            <div class="panel-body">
+                <div class="form-inline form-container">
+                    <div class="form-group">
+                        <label for="symbolCheck">Symbol</label>
+                        <input type="checkbox" name="symbolCheck" id="symbolCheck">
+                        <label> All </label>
+                    </div>
+                    <div class="form-group">
+                        <span class="dynamic-container">
+                            <input type="text" name="symbolText[]" class="symbolText form-control" placeholder="Enter Symbol">
+                        </span>
+
+                        <button class="btn btn-primary" name="symbolAdd" id="symbolAdd">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

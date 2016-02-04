@@ -1,0 +1,19 @@
+{
+  "name": "largetraders",
+  "version": "1.0.0",
+  "description": "mock for the large traders for Deepika",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KC",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-ui-grid": "^3.1.0",
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "multer": "^1.1.0",
+    "path": "^0.12.7"
+  }
+}

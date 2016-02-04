@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="LargeTraders">
+<head>
+    <meta charset="UTF-8">
+    <title>Large Trader Mock</title>
+    <!--Style sheet dependencies-->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/angular-ui-grid/ui-grid.min.css">
+    <link rel="stylesheet" href="/bower_components/jquery-ui/themes/cupertino/jquery-ui.min.css">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <!--End of style sheet dependencies-->
+</head>
+<body ng-controller="LargeTradersCtrl">
+
+    <!--Initializing directive to load the template-->
+    <h3>Request by Large Traders</h3>
+    <div large-trader-form trade-options= tradeOptions ></div>
+
+
+    <!--Javascript dependencies-->
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
+
+    <script type="text/javascript" src="/bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script type="text/javascript" src="/bower_components/angular-route/angular-route.min.js"></script>
+
+    <script type="text/javascript" src="/src/LargeTraders.js"></script>
+    <script type="text/javascript" src="/src/controllers/LargeTradersCtrl.js"></script>
+    <script type="text/javascript" src="/src/directives/largeTraderForm.js"></script>
+    <script type="text/javascript" src="/src/directives/largeTraderSource.js"></script>
+    <script type="text/javascript" src="/src/directives/largeTraderId.js"></script>
+    <script type="text/javascript" src="/src/directives/largeTraderReview.js"></script>
+    <script type="text/javascript" src="/src/directives/largeTraderSymbol.js"></script>
+    <script type="text/javascript" src="/src/directives/largeTraderDueDate.js"></script>
+    <script type="text/javascript" src="/src/directives/largeTraderTrade.js"></script>
+
+</body>
+</html>

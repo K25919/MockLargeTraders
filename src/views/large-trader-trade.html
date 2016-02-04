@@ -1,0 +1,21 @@
+<div class="panel-group" id="largeTraderTradeAccordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="largeTraderTradeHeading">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#largeTraderTradeAccordion" href="#largeTraderTradeCollapse" aria-expanded="true" aria-controls="largeTraderTradeCollapse">
+                    Trades
+                </a>
+            </h4>
+        </div>
+        <div id="largeTraderTradeCollapse" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="largeTraderTradeHeading">
+            <div class="panel-body">
+                <div class="form-inline form-container">
+                    <div ng-repeat="trade in tradeOptions" class="form-group">
+                        <label>{{ trade.name }}</label>
+                        <input type="checkbox" class="checkbox pull-left" name="{{ trade.id }}" id="{{ trade.id }}">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
